@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       reply = "JSON (JavaScript Object Notation) is the most common format used for data in APIs. It's lightweight, human-readable, and easy for apps to parse.";
     }
     else if (input.includes("your name")) {
-      reply = "I’m your AI assistant, designed to reflect Sumayyah’s voice — tech-forward, intentional, and always focused on growth.";
+      reply = "I’m your AI assistant, designed to be tech-forward, intentional, and always focused on growth.";
     }
     else if (input.includes("help")) {
       reply = "Of course. What area are you looking to learn more about — tech concepts, tools, or something specific?";
@@ -49,13 +49,13 @@ document.addEventListener("DOMContentLoaded", function () {
       reply = "It’s completely valid to feel that way. Take a breath. Rest is part of progress, and you’re still on the path.";
     }
     else if (input.includes("bye")) {
-      reply = "Take care — and thank you for engaging. Let’s reconnect soon.";
+      reply = "Take care — and thank you for engaging. Let’s reconnect soon!";
     }
     else {
       const randomResponses = [
         "That's a great question — can you share a bit more context?",
         "Let’s work through that. What's your current understanding so far?",
-        "Good inquiry. Would you like a technical breakdown or a real-world analogy?",
+        "Good question. Would you like a technical breakdown or a real-world analogy?",
         "Let’s take that one step at a time. Where would you like to begin?",
         "Interesting thought — sounds like you're onto something."
       ];
